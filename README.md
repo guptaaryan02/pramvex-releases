@@ -14,8 +14,9 @@ This repository holds release files only. Get the latest version from
 
 ## These builds are not code-signed
 
-- **macOS:** right-click Pramvex in Applications, choose **Open**, then **Open** again. If macOS says the app is damaged, run
-  `xattr -dr com.apple.quarantine /Applications/Pramvex.app` once.
+- **macOS:** open Pramvex once; when macOS blocks it, go to **System Settings › Privacy & Security**, scroll down and click
+  **Open Anyway**, then confirm (on macOS 14 and earlier, right-click → Open also works). If macOS says the app is damaged,
+  run `xattr -dr com.apple.quarantine /Applications/Pramvex.app` once.
 - **Windows:** on the blue SmartScreen screen choose **More info**, then **Run anyway**.
 - **Linux:** `chmod +x Pramvex_<version>_amd64.AppImage`, or install the `.deb` / `.rpm`.
 
